@@ -4,11 +4,11 @@
 }
 
 .header {
-
+    
     background: rgba(255, 144, 14, 0.1);
 }
 
-/* header and nav style */
+/* header and banner section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,8 @@ nav li {
 }
 
 .btn-primary-1,
-.btn-primary-2 {
+.btn-primary-2,
+.btn-primary-3 {
 
     color: #FFFFFF;
     font-weight: 700;
@@ -102,5 +103,32 @@ nav li {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+
+}
+
+/* <!-- experience section --> */
+.experiences {
+    display: flex;
+    margin: 50px 240px 30px 240px;
+}
+
+.experiences-description {
+    margin-right: 400px;
+}
+
+.experience-heading {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
 
 }
