@@ -1,10 +1,14 @@
+* {
+    margin: 0;
+    max-width: 1920px;
+}
+
 *body {
-    margin: 0, 240;
     font-family: font-family: 'Work Sans', sans-serif;
 }
 
 .header {
-    
+    padding: 100px 240px;
     background: rgba(255, 144, 14, 0.1);
 }
 
@@ -12,12 +16,12 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 240px;
 }
 
 .nav-title {
     font-weight: 700;
     font-size: 45px;
+    justify-content: center;
 }
 
 nav ul {
@@ -33,10 +37,6 @@ nav li {
 }
 
 /* banner-section */
-.banner {
-    align-items: certer;
-    margin: 0 240px;
-}
 
 .banner-title {
     text-align: center;
@@ -110,10 +110,12 @@ nav li {
 .experiences {
     display: flex;
     margin: 50px 240px 30px 240px;
+    width: 1481px;
+    height: 1059px;
 }
 
 .experiences-description {
-    margin-right: 400px;
+    margin-right: 200px;
 }
 
 .experience-heading {
@@ -123,7 +125,7 @@ nav li {
 
 .text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: #727272;
 }
 
@@ -131,4 +133,97 @@ nav li {
     font-weight: 600;
     font-size: 20px;
 
+}
+
+.experience {
+    padding: 10px;
+    width: 600px;
+    height: 150px;
+}
+
+/* facts */
+
+.facts {
+    padding: 50px 240px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.success {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.client {
+    width: 150px;
+    height: 150px;
+    border: 2px solid peru;
+    text-align: center;
+}
+.client:hover{
+    width: 5s 50px;
+    height: 5s 50px;
+}
+
+.client-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.success p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* sponsor */
+
+.sponsors {
+    padding: 50px 240px;
+}
+
+.sponsor-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 50px;
+    margin-left: 450PX;
+    margin-right: 450px;
+}
+
+.sponsor-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 30px;
+    margin-left: 375PX;
+    margin-right: 375px;
+}
+
+.sponsor-icon {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+/* footer */
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+.footer p{
+   padding-top: 50px;
 }
